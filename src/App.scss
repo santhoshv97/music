@@ -1,0 +1,43 @@
+.home {
+    // background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.uploadBtn{
+    background-color: #009688;
+    padding: 15px 40px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.upload{
+    padding: 10px 40px !important;
+    border: 1px dashed gray !important;
+}
+.uploadWrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.mt-5{
+    margin-top: 15px !important;
+}
+
+.fileName {
+    padding: 8px 10px;
+    border-radius: 20px;
+    background-color: lightgrey;
+}
